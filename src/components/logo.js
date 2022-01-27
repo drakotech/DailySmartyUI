@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Logo extends Component {
   render() {
@@ -8,11 +9,13 @@ export default class Logo extends Component {
     };
     return (
       <div className="logo-main">
-        <img
-          style={size}
-          alt="Daily Smarty UI image logo big"
-          src="/assets/ds_circle_logo.png"
-        />
+        <Link to="/">
+          <img
+            style={size}
+            alt="Daily Smarty UI image logo big"
+            src="/assets/ds_circle_logo.png"
+          />
+        </Link>
       </div>
     );
   }
