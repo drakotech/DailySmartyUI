@@ -3,9 +3,10 @@ import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
 import { createStore, applyMiddleware, compose } from "redux";
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import reducers from "./reducers";
 
 import thunk from "redux-thunk";
+
+import reducers from "./reducers";
 
 const createStoreWithMiddleware = applyMiddleware(thunk)(
   compose(
@@ -16,6 +17,7 @@ const createStoreWithMiddleware = applyMiddleware(thunk)(
 );
 
 import "./style/main.scss";
+
 import Home from "./components/home";
 import Results from "./components/results";
 
