@@ -55,6 +55,10 @@ export default class Post extends Component {
         </div>
       );
     });
+
+    if (links == 0) {
+      return <div className="no-content">No Links in Post</div>;
+    }
     return links;
   }
 
