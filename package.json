@@ -1,7 +1,10 @@
 {
-  "name": "react-redux-router",
+  "name": "dailysmarty-ui",
   "version": "1.0.0",
-  "description": "Basic skeleton codebase for React/Redux/Router applications.",
+  "description": "DailySmarty search engine UI.",
+  "engines": {
+    "node": "12.19.0"
+  },
   "scripts": {
     "preinstall": "npm set audit false",
     "start": "webpack-dev-server --config webpack/dev.config.js --watch",
@@ -12,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:bottega-code-school/js-builder.git"
+    "url": "https://github.com/drakotech/DailySmartyUI"
   },
   "keywords": [
     "es6",
@@ -25,12 +28,12 @@
     "sass",
     "css module"
   ],
-  "author": "Your Name Here",
+  "author": "George Flefel",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bottega-code-school/js-builder/issues"
+    "url": "https://github.com/drakotech/DailySmartyUI/issues"
   },
-  "homepage": "https://github.com/bottega-code-school/js-builder",
+  "homepage": "https://github.com/drakotech/DailySmartyUI",
   "dependencies": {
     "ajv": "6.12.0",
     "autoprefixer": "^9.1.0",
